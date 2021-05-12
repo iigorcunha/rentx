@@ -33,4 +33,4 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{secrets.SSH_KEY}}
           source: "., !node_modules"
-          target: "test1"
+          target: "~/app/rentx"
